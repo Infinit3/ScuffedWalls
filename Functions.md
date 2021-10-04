@@ -1030,3 +1030,56 @@ XXX:note
    interactable:false
    color:[1,0,0,1]
    ```
+
+Timbaland environment removal for mod charts - totally balloon
+```
+1:Environment
+    id:^TimbalandEnvironment\.\[0]Environment\.\[\d\d]TimbalandLogo$
+    lookupmethod:Regex
+    active:false
+
+1:Environment
+    id:^TimbalandEnvironment\.\[0]Environment\.\[\d\d]TimbalandLogo \(\d\)$
+    lookupmethod:Regex
+    active:false
+
+1:Environment
+    id:^TimbalandEnvironment\.\[0]Environment\.\[\d]Buildings$
+    lookupmethod:Regex
+    active:false
+
+1:Environment
+    id:^TimbalandEnvironment\.\[0]Environment\.\[\d]TopStructure$
+    lookupmethod:Regex
+    active:false
+
+1:Environment
+    id:^TimbalandEnvironment\.\[0]Environment\.\[\d]MainStructure$
+    lookupmethod:Regex
+    active:false
+
+1:Environment
+    id:^TimbalandEnvironment\.\[0]Environment\.\[\d]TrackMirror$
+    lookupmethod:Regex
+    active:false
+
+1:Environment
+    id:^TimbalandEnvironment\.\[0]Environment\.\[\d]TrackConstruction$
+    lookupmethod:Regex
+    active:false
+
+1:Environment
+    id:^TimbalandEnvironment\.\[0]Environment\.\[\d]Spectrograms$
+    lookupmethod:Regex
+    active:false
+
+1:Environment
+    id:^TimbalandEnvironment\.\[0]Environment\.\[\d\d]GlowLineL$
+    lookupmethod:Regex
+    active:false
+
+1:Environment
+    id:^TimbalandEnvironment\.\[0]Environment\.\[\d\d]GlowLineR$
+    lookupmethod:Regex
+    active:false
+```
